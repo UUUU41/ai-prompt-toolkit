@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Prompt Toolkit — 15 Ready-to-Use Prompts</title>
+<meta name="description" content="Search, filter and copy 15 practical AI prompt templates for study, coding and content writing.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>🤖 AI Prompt Toolkit</h1>
+  <p class="tagline">15 ready-to-use prompt templates — search, pick one, fill the <span class="ph">[BRACKETS]</span>, and paste it into any AI chat.</p>
+</header>
+
+<main class="container">
+
+  <div class="controls">
+    <input type="search" id="searchBox" placeholder="🔍 Search prompts… e.g. quiz, code, email" aria-label="Search prompts">
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="study">📚 Study</button>
+      <button class="filter-btn" data-category="coding">💻 Coding</button>
+      <button class="filter-btn" data-category="content">✍️ Content</button>
+    </div>
+  </div>
+
+  <p class="result-count" id="resultCount"></p>
+
+  <section class="cards" id="cards"></section>
+
+  <p class="no-results" id="noResults" hidden>No prompts match your search. Try a different word or category.</p>
+
+</main>
+
+<footer class="site-footer">
+  <p>Built by Chandan Yadav · AI Prompt Toolkit · Works fully offline — just open this file in a browser.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
